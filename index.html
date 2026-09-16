@@ -3,7 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tion®-LUMIA ゲル | WFI Care Series</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>【WFI公式】軽バン・配送ドライバー専用 消臭・除菌プロソリューション | Tion®-LUMIA</title>
+    <meta name="description" content="株式会社ワールドフォースインターナショナルがお届けする軽バン・配送ドライバー専用の空間ケア。高濃度ピコ銀イオン（Ag+）による無香料分解消臭で、荷物へのニオイ移りを防ぎ車内を快適に保ちます。">
+    <meta name="keywords" content="軽バン, 配送ドライバー, 消臭, 除菌, Tion-LUMIA, ピコ銀イオン, 車内消臭, ワールドフォースインターナショナル, WFI">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / OGP -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="軽バン・配送ドライバー専用 消臭・除菌プロソリューション | WFI">
+    <meta property="og:description" content="1日10時間以上過ごすコックピットを快適に。無香料・高濃度ピコ銀イオンでニオイを根本分解。">
+    <meta property="og:url" content="https://item.wfi.co.jp/care/">
+    <meta property="og:site_name" content="WFI Care Series">
+    <meta property="og:image" content="https://item.wfi.co.jp/care/images/ogp.jpg">
+
+    <!-- Google Search Console Verification (差し替えてご使用ください) -->
+    <<meta name="google-site-verification" content="Cu23HhD9D956kPvE0M8hXA5QX4csGFdVSpO9dRXBO9Y" />
+
+    <!-- LLMO / Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.wfi.co.jp/#organization",
+          "name": "株式会社ワールドフォースインターナショナル",
+          "url": "https://www.wfi.co.jp/",
+          "logo": "https://item.wfi.co.jp/care/images/logo.png",
+          "description": "ラストワンマイル物流を支える配送ドライバー支援・プラットフォーム事業"
+        },
+        {
+          "@type": "ProductGroup",
+          "name": "Tion®-LUMIA 消臭・除菌シリーズ（ドライバー向け）",
+          "description": "高濃度ピコ銀イオン（Ag+）を用いた配送ドライバー向けプロ仕様消臭・除菌製品群",
+          "brand": {
+            "@type": "Brand",
+            "name": "Tion®-LUMIA"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "株式会社 SOW"
+          },
+          "hasVariant": [
+            {
+              "@type": "Product",
+              "name": "Tion®-LUMIA ゲル Mタイプ (300g)",
+              "sku": "TL-GEL-M",
+              "offers": {
+                "@type": "Offer",
+                "price": "3400",
+                "priceCurrency": "JPY",
+                "availability": "https://schema.org/PreOrder"
+              }
+            },
+            {
+              "@type": "Product",
+              "name": "Tion®-LUMIA ゲル Sタイプ (120g)",
+              "sku": "TL-GEL-S",
+              "offers": {
+                "@type": "Offer",
+                "price": "1800",
+                "priceCurrency": "JPY",
+                "availability": "https://schema.org/OutOfStock"
+              }
+            },
+            {
+              "@type": "Product",
+              "name": "Tion®-LUMIA 消臭・除菌スプレー (280g)",
+              "sku": "TL-SPRAY-280",
+              "offers": {
+                "@type": "Offer",
+                "price": "4200",
+                "priceCurrency": "JPY",
+                "availability": "https://schema.org/PreOrder"
+              }
+            },
+            {
+              "@type": "Product",
+              "name": "Tion-PREMIUM 消臭シートA4 (2枚入り)",
+              "sku": "TL-SHEET-A4-2",
+              "offers": {
+                "@type": "Offer",
+                "price": "1800",
+                "priceCurrency": "JPY",
+                "availability": "https://schema.org/PreOrder"
+              }
+            },
+            {
+              "@type": "Product",
+              "name": "Tion-PREMIUM 消臭シートA4 (10枚入り)",
+              "sku": "TL-SHEET-A4-10",
+              "offers": {
+                "@type": "Offer",
+                "price": "5200",
+                "priceCurrency": "JPY",
+                "availability": "https://schema.org/OutOfStock"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -24,19 +128,31 @@
             }
         }
     </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .product-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .product-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
+    </style>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans antialiased">
 
-    <!-- Header -->
-    <header class="bg-navy-900 text-white sticky top-0 z-50 border-b border-gray-800">
-        <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
-            <div class="flex items-center space-x-2">
-                <span class="bg-brand-blue text-xs font-bold px-2 py-1 rounded">WFI Care</span>
-                <span class="font-bold text-lg tracking-wide">Item Store</span>
-            </div>
-            <a href="#request-form" class="text-xs bg-brand-accent hover:bg-orange-600 text-white font-bold py-2 px-4 rounded transition">
-                販売リクエスト
+    <!-- Header / Navigation -->
+    <header class="bg-white text-gray-900 sticky top-0 z-50 border-b border-gray-200 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- コーポレートサイトへのロゴリンク -->
+            <a href="https://www.wfi.co.jp/" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 group" title="株式会社ワールドフォースインターナショナル 公式サイトへ">
+                <img src="images/logo.png" alt="株式会社ワールドフォースインターナショナル" class="h-8 md:h-10 w-auto object-contain" onerror="this.onerror=null; this.src='https://via.placeholder.com/200x50?text=WFI+Logo';">
+                <span class="hidden sm:inline-block text-xs font-semibold text-gray-500 border-l border-gray-300 pl-3">Care Series</span>
             </a>
+            
+            <div class="flex items-center space-x-3">
+                <a href="#products" class="hidden md:inline-block text-xs text-gray-600 hover:text-brand-blue font-bold px-3 py-2">
+                    商品ラインナップ
+                </a>
+                <a href="#request-form" class="text-xs bg-brand-accent hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg transition shadow">
+                    リクエスト・問合せ
+                </a>
+            </div>
         </div>
     </header>
 
@@ -44,7 +160,7 @@
     <section class="bg-navy-900 text-white py-12 md:py-20 px-4 relative overflow-hidden">
         <div class="max-w-4xl mx-auto text-center relative z-10">
             <span class="inline-block bg-navy-800 text-brand-accent text-xs md:text-sm font-semibold px-3 py-1 rounded-full mb-4 border border-gray-700">
-                プロドライバー専用・空間ケアソリューション
+                プロドライバー専用・車内環境チューニング
             </span>
             <h1 class="text-2xl md:text-4xl font-extrabold leading-tight mb-4">
                 あなたの軽バンは、<br class="md:hidden">1日10時間以上過ごす<br>
@@ -53,22 +169,14 @@
             <p class="text-gray-300 text-sm md:text-base max-w-2xl mx-auto mb-8">
                 芳香剤の強烈な香りで誤魔化さない。お届けする荷物に一切影響を与えない、プロの現場のための高濃度ピコ銀イオン無香分解技術。
             </p>
-            
-            <div class="bg-navy-800/80 p-6 rounded-2xl border border-gray-700 max-w-md mx-auto mb-8 shadow-2xl">
-                <!-- 商品写真エリア（プレースホルダー画像） -->
-                <div class="w-full h-48 bg-gray-700 rounded-lg flex items-center justify-center mb-4 overflow-hidden">
-                    <img src="images/tion-lumia-gel.jpg" alt="Tion®-LUMIA ゲル" class="object-cover w-full h-full" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x300?text=Tion-LUMIA+Gel+300g';">
-                </div>
-                <div class="text-left">
-                    <span class="text-xs text-gray-400">プロ仕様・車内置型消臭ゲル</span>
-                    <h2 class="text-xl font-bold">Tion®-LUMIA ゲル（300g）</h2>
-                    <p class="text-xs text-gray-300 mt-1">製造・発売元：株式会社 SOW (Made in Japan)</p>
-                </div>
+            <div class="flex flex-wrap justify-center gap-3 mb-4">
+                <a href="#products" class="border border-gray-500 hover:border-white text-white font-bold text-sm px-6 py-3 rounded-full transition">
+                    製品ラインナップを見る ↓
+                </a>
+                <a href="#request-form" class="bg-brand-accent hover:bg-orange-600 text-white font-bold text-sm md:text-base px-8 py-3 rounded-full shadow-lg hover:shadow-orange-500/20 transition transform hover:-translate-y-0.5">
+                    販売リクエスト・問合せ
+                </a>
             </div>
-
-            <a href="#request-form" class="inline-block bg-brand-accent hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-orange-500/20 transition transform hover:-translate-y-0.5">
-                販売リクエスト・入荷通知に登録する
-            </a>
         </div>
     </section>
 
@@ -83,28 +191,28 @@
 
         <div class="grid md:grid-cols-2 gap-4">
             <div class="bg-white p-5 rounded-xl border border-gray-200 shadow-sm flex items-start space-x-3">
-                <span class="text-red-5xl text-red-500 font-bold">✕</span>
+                <span class="text-red-500 font-bold text-lg">✕</span>
                 <div>
                     <h3 class="font-bold text-gray-900">荷物からのニオイ移り・異臭</h3>
                     <p class="text-xs text-gray-600 mt-1">集荷した多様な荷物の独特な臭いが車内に充満・残留する。</p>
                 </div>
             </div>
             <div class="bg-white p-5 rounded-xl border border-gray-200 shadow-sm flex items-start space-x-3">
-                <span class="text-red-500 font-bold">✕</span>
+                <span class="text-red-500 font-bold text-lg">✕</span>
                 <div>
                     <h3 class="font-bold text-gray-900">長時間の運転による汗・体臭</h3>
                     <p class="text-xs text-gray-600 mt-1">毎日乗る運転席のシートや空間に蓄積される特有の体臭。</p>
                 </div>
             </div>
             <div class="bg-white p-5 rounded-xl border border-gray-200 shadow-sm flex items-start space-x-3">
-                <span class="text-red-500 font-bold">✕</span>
+                <span class="text-red-500 font-bold text-lg">✕</span>
                 <div>
                     <h3 class="font-bold text-gray-900">タバコ臭や車内での食事の残り香</h3>
                     <p class="text-xs text-gray-600 mt-1">休憩時のタバコやお弁当のニオイが混ざり、不快な環境に。</p>
                 </div>
             </div>
             <div class="bg-white p-5 rounded-xl border border-gray-200 shadow-sm flex items-start space-x-3">
-                <span class="text-red-500 font-bold">✕</span>
+                <span class="text-red-500 font-bold text-lg">✕</span>
                 <div>
                     <h3 class="font-bold text-gray-900">一般的な芳香剤による「酔い」</h3>
                     <p class="text-xs text-gray-600 mt-1">強い香りで上書きしようとして逆に気分が悪くなる。</p>
@@ -133,106 +241,189 @@
                 </div>
                 <div class="bg-gray-50 p-6 rounded-xl border border-gray-100">
                     <div class="w-10 h-10 bg-blue-100 text-brand-blue rounded-lg flex items-center justify-center font-bold mb-4">02</div>
-                    <h3 class="font-bold text-navy-900 mb-2">置くだけ・約90日持続</h3>
+                    <h3 class="font-bold text-navy-900 mb-2">現場に応じたマルチ展開</h3>
                     <p class="text-xs text-gray-600 leading-relaxed">
-                        ダッシュボードやドリンクホルダーに置くだけ。業務中にスプレーを噴射する手間がなく、24時間クリーンな環境を維持します。
+                        常時設置の「ゲル」、瞬時に効く「スプレー」、省スペースの「シート」。ドライバーの業務スタイルに合わせた最適な選択が可能です。
                     </p>
                 </div>
                 <div class="bg-gray-50 p-6 rounded-xl border border-gray-100">
                     <div class="w-10 h-10 bg-blue-100 text-brand-blue rounded-lg flex items-center justify-center font-bold mb-4">03</div>
                     <h3 class="font-bold text-navy-900 mb-2">プロ品質の信頼性</h3>
                     <p class="text-xs text-gray-600 leading-relaxed">
-                        大手ECモール（Amazon・楽天市場等）でも値崩れせず定価販売されている本物。医療・介護現場でも採用される安心の日本製です。
+                        一般ECモールでも値崩れせず定価販売されるプロ仕様。医療・介護・ペット施設でも使われる高い安全性と実証データを誇ります。
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section 3: Comparison -->
-    <section class="py-12 px-4 max-w-4xl mx-auto">
-        <h2 class="text-xl md:text-2xl font-bold text-navy-900 text-center mb-8">市販製品との違い</h2>
-        <div class="overflow-x-auto">
-            <table class="w-full text-xs md:text-sm text-left border-collapse">
-                <thead>
-                    <tr class="bg-navy-900 text-white">
-                        <th class="p-3">比較項目</th>
-                        <th class="p-3">一般的な芳香剤</th>
-                        <th class="p-3">消臭スプレー</th>
-                        <th class="p-3 bg-brand-blue">Tion®-LUMIA ゲル</th>
-                    </tr>
-                </thead>
-                <tbody class="divide-y divide-gray-200 bg-white">
-                    <tr>
-                        <td class="p-3 font-bold bg-gray-50">消臭方式</td>
-                        <td class="p-3 text-gray-500">強い香りで隠す</td>
-                        <td class="p-3 text-gray-500">一時的な局所消臭</td>
-                        <td class="p-3 font-bold text-brand-blue bg-blue-50/50">分子レベルで吸着・分解</td>
-                    </tr>
-                    <tr>
-                        <td class="p-3 font-bold bg-gray-50">荷物への影響</td>
-                        <td class="p-3 text-red-500">移り香のリスクあり</td>
-                        <td class="p-3 text-gray-500">噴射時の付着リスク</td>
-                        <td class="p-3 font-bold text-brand-blue bg-blue-50/50">無香料でリスクゼロ</td>
-                    </tr>
-                    <tr>
-                        <td class="p-3 font-bold bg-gray-50">手間と持続性</td>
-                        <td class="p-3 text-gray-500">香りがすぐ薄れる</td>
-                        <td class="p-3 text-gray-500">都度スプレーが必要</td>
-                        <td class="p-3 font-bold text-brand-blue bg-blue-50/50">置くだけで約90日持続</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
-
-    <!-- Section 4: Evidence -->
-    <section class="bg-gray-100 py-12 px-4">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-xl md:text-2xl font-bold text-navy-900 mb-4">第三者機関による実証データ</h2>
-            <p class="text-xs text-gray-600 mb-6">一般社団法人 日本食品分析センター等の各種試験済</p>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-left">
-                <div class="bg-white p-4 rounded-lg shadow-sm">
-                    <span class="text-xs text-gray-400 block">アンモニア消臭</span>
-                    <span class="text-sm font-bold text-navy-900">ガス濃度「0」減少</span>
-                </div>
-                <div class="bg-white p-4 rounded-lg shadow-sm">
-                    <span class="text-xs text-gray-400 block">トリメチルアミン</span>
-                    <span class="text-sm font-bold text-navy-900">ガス濃度「0」減少</span>
-                </div>
-                <div class="bg-white p-4 rounded-lg shadow-sm">
-                    <span class="text-xs text-gray-400 block">ウイルス・菌対策</span>
-                    <span class="text-sm font-bold text-navy-900">99%以上 不活化</span>
-                </div>
-                <div class="bg-white p-4 rounded-lg shadow-sm">
-                    <span class="text-xs text-gray-400 block">安全性試験</span>
-                    <span class="text-sm font-bold text-navy-900">皮膚一次刺激性「無」</span>
-                </div>
+    <!-- Section: Products (3タイプ5種) -->
+    <section id="products" class="py-16 px-4 bg-gray-100">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <span class="text-brand-blue font-bold text-xs tracking-wider uppercase">LINEUP</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-navy-900 mt-1">3タイプ5種のプロフェッショナルラインナップ</h2>
+                <p class="text-sm text-gray-600 mt-2">軽バンのコックピットから荷台まで、用途に合わせて選べるケアアイテム</p>
             </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Product Type 1: Gel (2種) -->
+                <div class="product-card bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                    <div class="bg-navy-900 p-2 text-center text-white text-xs font-bold tracking-wider">
+                        ★ メイン商品・置くだけ常時ケア
+                    </div>
+                    <div class="h-48 bg-gray-200 flex items-center justify-center overflow-hidden">
+                        <img src="images/tion-lumia-gel.jpg" alt="Tion-LUMIA ゲル" class="object-cover w-full h-full" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x300?text=Tion-LUMIA+Gel';">
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <span class="text-xs text-gray-500 mb-1">無香料・約90日持続</span>
+                        <h3 class="text-lg font-bold text-navy-900 mb-2">Tion®-LUMIA ゲル</h3>
+                        <p class="text-xs text-gray-600 mb-4 flex-grow">
+                            ドリンクホルダーやダッシュボードに置くだけで24時間消臭・除菌。業務中にスプレーする手間なく空間をクリーンに保ちます。
+                        </p>
+                        <div class="bg-gray-50 rounded-lg p-3 text-xs space-y-2">
+                            <div class="flex justify-between items-center pb-2 border-b border-gray-200">
+                                <div>
+                                    <span class="font-bold block text-gray-800">Mタイプ (300g)</span>
+                                    <span class="text-[10px] text-green-600 font-semibold">【販売予定】</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-xs text-gray-400 block">希望小売価格</span>
+                                    <span class="text-brand-accent font-bold text-sm">3,400円</span>
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <span class="font-bold block text-gray-800">Sタイプ (120g)</span>
+                                    <span class="text-[10px] text-gray-500">【販売未定】</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-xs text-gray-400 block">希望小売価格</span>
+                                    <span class="text-gray-700 font-bold text-sm">1,800円</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Type 2: Spray (1種) -->
+                <div class="product-card bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                    <div class="bg-gray-200 p-2 text-center text-gray-700 text-xs font-bold tracking-wider">
+                        即効性・ピンポイント除菌
+                    </div>
+                    <div class="h-48 bg-gray-200 flex items-center justify-center overflow-hidden">
+                        <img src="images/tion-lumia-spray.jpg" alt="消臭スプレー" class="object-cover w-full h-full" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x300?text=Tion+Spray+280g';">
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <span class="text-xs text-gray-500 mb-1">マイクロミスト・速効分解</span>
+                        <h3 class="text-lg font-bold text-navy-900 mb-2">消臭スプレー (280g)</h3>
+                        <p class="text-xs text-gray-600 mb-4 flex-grow">
+                            突発的な強いニオイ（タバコ、異臭荷物）や、シート・マット・エアコン吹き出し口へのピンポイント除菌・消臭に。
+                        </p>
+                        <div class="bg-gray-50 rounded-lg p-3 text-xs">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <span class="font-bold block text-gray-800">本体 (280g)</span>
+                                    <span class="text-[10px] text-green-600 font-semibold">【販売予定】</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-xs text-gray-400 block">希望小売価格</span>
+                                    <span class="text-brand-accent font-bold text-sm">4,200円</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Type 3: Sheet (2種) -->
+                <div class="product-card bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                    <div class="bg-gray-200 p-2 text-center text-gray-700 text-xs font-bold tracking-wider">
+                        省スペース・隙間設置
+                    </div>
+                    <div class="h-48 bg-gray-200 flex items-center justify-center overflow-hidden">
+                        <img src="images/tion-premium-sheet.jpg" alt="Tion-PREMIUM消臭シートA4" class="object-cover w-full h-full" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x300?text=Tion-PREMIUM+Sheet';">
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <span class="text-xs text-gray-500 mb-1">A4サイズ・シート下・荷台用</span>
+                        <h3 class="text-lg font-bold text-navy-900 mb-2">Tion-PREMIUM<br>消臭シート A4</h3>
+                        <p class="text-xs text-gray-600 mb-4 flex-grow">
+                            座席シートの下や荷台の隙間に敷くだけ。場所を取らず、悪臭源の近くで持続的にニオイ成分を吸着・分解します。
+                        </p>
+                        <div class="bg-gray-50 rounded-lg p-3 text-xs space-y-2">
+                            <div class="flex justify-between items-center pb-2 border-b border-gray-200">
+                                <div>
+                                    <span class="font-bold block text-gray-800">2枚入り</span>
+                                    <span class="text-[10px] text-green-600 font-semibold">【販売予定】</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-xs text-gray-400 block">希望小売価格</span>
+                                    <span class="text-brand-accent font-bold text-sm">1,800円</span>
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <span class="font-bold block text-gray-800">10枚入り</span>
+                                    <span class="text-[10px] text-gray-500">【販売未定】</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-xs text-gray-400 block">希望小売価格</span>
+                                    <span class="text-gray-700 font-bold text-sm">5,200円</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <p class="text-center text-xs text-gray-500 mt-6">※メーカー希望小売価格は税抜き/税込み表記および販売時の調整により変更となる場合がございます。</p>
         </div>
     </section>
 
-    <!-- Section 5: Request Form (Make Webhook 連携) -->
+    <!-- Section 5: Form (リクエスト ＆ お問合せ 兼用) -->
     <section id="request-form" class="py-12 px-4 max-w-2xl mx-auto">
         <div class="bg-white p-6 md:p-8 rounded-2xl shadow-xl border border-gray-200">
             <div class="text-center mb-6">
-                <span class="bg-orange-100 text-brand-accent text-xs font-bold px-3 py-1 rounded-full">社内取り扱い検討中</span>
-                <h2 class="text-xl font-bold text-navy-900 mt-2">販売リクエスト・入荷通知受付</h2>
+                <span class="bg-orange-100 text-brand-accent text-xs font-bold px-3 py-1 rounded-full">市場調査 ＆ お問合せ受付</span>
+                <h2 class="text-xl font-bold text-navy-900 mt-2">販売リクエスト・お問合せフォーム</h2>
                 <p class="text-xs text-gray-600 mt-1">
-                    ドライバーの皆様からのリクエスト数を参考に社内取り扱い（購入ルート構築）を進めます。ご興味のある方は下記よりエントリーください。
+                    社内取り扱い・販売開始に向けたリクエストを受け付けております。<br>匿名でのリクエストも可能です（※ご質問への返信が必要な場合はメールアドレスをご入力ください）。
                 </p>
             </div>
 
-            <!-- 
-                Make（Integromat）Webhook送信フォーム 
-                ※action属性にMakeで生成したWebhook URLをセットしてください
-            -->
             <form action="YOUR_MAKE_WEBHOOK_URL_HERE" method="POST" class="space-y-4">
+                
+                <!-- 区分（契約ドライバーの識別） -->
                 <div>
-                    <label class="block text-xs font-bold text-gray-700 mb-1">お名前 <span class="text-red-500">*</span></label>
-                    <input type="text" name="name" required class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:border-brand-blue" placeholder="山田 太郎">
+                    <label class="block text-xs font-bold text-gray-700 mb-1">ご区分 <span class="text-red-500">*</span></label>
+                    <div class="grid grid-cols-2 gap-2 text-xs">
+                        <label class="flex items-center space-x-2 border p-2 rounded-lg cursor-pointer hover:bg-gray-50">
+                            <input type="radio" name="user_type" value="WFI契約ドライバー" checked class="text-brand-blue">
+                            <span class="font-bold text-gray-800">WFI契約ドライバー</span>
+                        </label>
+                        <label class="flex items-center space-x-2 border p-2 rounded-lg cursor-pointer hover:bg-gray-50">
+                            <input type="radio" name="user_type" value="その他・一般" class="text-brand-blue">
+                            <span>その他・一般</span>
+                        </label>
+                    </div>
                 </div>
 
+                <!-- 目的選択 -->
+                <div>
+                    <label class="block text-xs font-bold text-gray-700 mb-1">ご利用目的 <span class="text-red-500">*</span></label>
+                    <div class="grid grid-cols-2 gap-2 text-xs">
+                        <label class="flex items-center space-x-2 border p-2 rounded-lg cursor-pointer hover:bg-gray-50">
+                            <input type="radio" name="form_intent" value="リクエストのみ（返信不要）" checked class="text-brand-blue">
+                            <span>入荷リクエストのみ</span>
+                        </label>
+                        <label class="flex items-center space-x-2 border p-2 rounded-lg cursor-pointer hover:bg-gray-50">
+                            <input type="radio" name="form_intent" value="質問・問合せ（返信希望）" class="text-brand-blue">
+                            <span class="font-bold text-brand-blue">質問・問合せ（要返信）</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- 所属エリア -->
                 <div>
                     <label class="block text-xs font-bold text-gray-700 mb-1">所属エリア <span class="text-red-500">*</span></label>
                     <select name="area" required class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:border-brand-blue">
@@ -242,56 +433,86 @@
                         <option value="東海">東海エリア</option>
                         <option value="関西">関西エリア</option>
                         <option value="九州">九州エリア</option>
+                        <option value="その他">その他エリア</option>
                     </select>
                 </div>
 
-                <div>
-                    <label class="block text-xs font-bold text-gray-700 mb-1">メールアドレス <span class="text-red-500">*</span></label>
-                    <input type="email" name="email" required class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:border-brand-blue" placeholder="example@wfi.co.jp">
+                <!-- 商品選択 -->
+                <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <label class="block text-xs font-bold text-gray-800 mb-2">気になっている商品（複数選択可）</label>
+                    <div class="space-y-2 text-xs">
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="interest_gel_m" value="yes" class="rounded text-brand-blue">
+                            <span>Tion-LUMIA ゲル Mタイプ 300g (3,400円/予定)</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="interest_gel_s" value="yes" class="rounded text-brand-blue">
+                            <span>Tion-LUMIA ゲル Sタイプ 120g (1,800円/未定)</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="interest_spray" value="yes" class="rounded text-brand-blue">
+                            <span>消臭スプレー 280g (4,200円/予定)</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="interest_sheet_2" value="yes" class="rounded text-brand-blue">
+                            <span>Tion-PREMIUM 消臭シートA4 2枚入 (1,800円/予定)</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="interest_sheet_10" value="yes" class="rounded text-brand-blue">
+                            <span>Tion-PREMIUM 消臭シートA4 10枚入 (5,200円/未定)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- 連絡先（返信希望時や任意） -->
+                <div class="grid md:grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 mb-1">お名前 <span class="text-gray-400 font-normal">（任意・ニックネーム可）</span></label>
+                        <input type="text" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:border-brand-blue" placeholder="匿名可">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 mb-1">メールアドレス <span class="text-gray-400 font-normal">（返信希望時は必須）</span></label>
+                        <input type="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:border-brand-blue" placeholder="example@wfi.co.jp">
+                    </div>
                 </div>
 
                 <div>
-                    <label class="block text-xs font-bold text-gray-700 mb-1">導入希望個数（目安） <span class="text-red-500">*</span></label>
-                    <select name="quantity" required class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:border-brand-blue">
-                        <option value="1個">1個（自分の車用）</option>
-                        <option value="2個">2個</option>
-                        <option value="3個以上">3個以上</option>
-                        <option value="チーム導入">グループ・チーム全体での導入希望</option>
-                    </select>
+                    <label class="block text-xs font-bold text-gray-700 mb-1">お悩み・ご質問・ご意見（任意）</label>
+                    <textarea name="comment" rows="3" class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:border-brand-blue" placeholder="エアコンの臭いが気になる、〇〇の荷物を運ぶ際のニオイ対策について知りたい 等"></textarea>
                 </div>
 
-                <div>
-                    <label class="block text-xs font-bold text-gray-700 mb-1">車内環境のお悩み（任意）</label>
-                    <textarea name="comment" rows="3" class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:border-brand-blue" placeholder="エアコンの臭いが気になる、荷物のニオイ移りを防ぎたい 等"></textarea>
-                </div>
-
-                <!-- 
-                    将来的にクレジット決済へ移行する際：
-                    この送信ボタンを「Stripe決済ページへのリンクボタン」に差し替えるだけで対応可能です。
-                -->
                 <button type="submit" class="w-full bg-brand-accent hover:bg-orange-600 text-white font-bold py-3 rounded-xl shadow-lg transition">
-                    リクエストを送信する（無料登録）
+                    送信する
                 </button>
             </form>
         </div>
     </section>
 
-    <!-- Product Specs & Footer -->
-    <footer class="bg-navy-900 text-gray-400 py-10 px-4 border-t border-gray-800">
-        <div class="max-w-4xl mx-auto text-xs space-y-6">
-            <div class="border-b border-gray-800 pb-6">
-                <h4 class="font-bold text-white mb-2">製品仕様・スペック</h4>
-                <ul class="space-y-1">
-                    <li>商品名：Tion®-LUMIA（ティオン ルミア）ゲルタイプ 300g</li>
-                    <li>用途：自動車内空間および密閉空間の消臭・除菌・防カビ・抗菌</li>
-                    <li>成分：高濃度ピコ銀イオン（Ag+）水溶性ゲル（無香料・アルコールフリー）</li>
-                    <li>持続期間：約90日（使用環境により変動）</li>
-                    <li>製造・発売元：株式会社 SOW (Made in Japan)</li>
-                </ul>
-            </div>
+    <!-- Footer / Company Info -->
+    <footer class="bg-navy-900 text-gray-400 py-12 px-4 border-t border-gray-800">
+        <div class="max-w-5xl mx-auto text-xs space-y-8">
             
+            <div class="grid md:grid-cols-2 gap-8 border-b border-gray-800 pb-8">
+                <div>
+                    <h4 class="font-bold text-white mb-3 text-sm">取扱事業者（運営会社）</h4>
+                    <p class="font-bold text-gray-200">株式会社ワールドフォースインターナショナル</p>
+                    <p class="mt-1 leading-relaxed">
+                        〒112-0004 東京都文京区後楽2丁目20-16 後楽2丁目ビル 5階<br>
+                        公式WEBサイト：<a href="https://www.wfi.co.jp/" target="_blank" rel="noopener noreferrer" class="text-brand-blue hover:underline">https://www.wfi.co.jp/</a>
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white mb-3 text-sm">製品製造・発売元</h4>
+                    <p class="font-bold text-gray-200">株式会社 SOW (Made in Japan)</p>
+                    <p class="mt-1 leading-relaxed">
+                        主成分：高濃度ピコ銀イオン（Ag+）水溶性成分（無香料・アルコールフリー）<br>
+                        用途：自動車内空間および密閉空間の持続消臭・除菌・防カビ・抗菌
+                    </p>
+                </div>
+            </div>
+
             <div class="flex flex-col md:flex-row justify-between items-center text-gray-500 space-y-2 md:space-y-0">
-                <p>WFI Care Series - Item Store</p>
+                <p>WFI Care Series - Item Store (https://item.wfi.co.jp/care/)</p>
                 <p>&copy; World Force International All Rights Reserved.</p>
             </div>
         </div>
